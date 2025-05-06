@@ -7,8 +7,8 @@ import Stack from '../Stack'
 const Hero = () => {
   // Dữ liệu hình ảnh cho Stack
   const images = [
-    { id: 1, img: "/assets/stacks/stack1.jpg" },
-    { id: 2, img: "/assets/stacks/stack2.jpg" },
+    { id: 1, img: "/assets/stacks/stack1.JPG" },
+    { id: 2, img: "/assets/stacks/stack2.JPG" },
     { id: 3, img: "/assets/stacks/stack3.jpg" },
     { id: 4, img: "/assets/stacks/stack4.jpg" },
     { id: 5, img: "/assets/stacks/stack5.jpg" }
