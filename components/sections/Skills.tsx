@@ -4,8 +4,8 @@ import React from 'react'
 
 const Skills = () => {
       const skills = [
-            "Flutter", "React Native", "React", "MySQL",
-            "Firebase", "Docker", "GitHub", "Postman",
+            "Flutter", "React Native", "React",
+            "Firebase", "Docker",
       ]
 
       return (
