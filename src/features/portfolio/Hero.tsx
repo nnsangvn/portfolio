@@ -2,9 +2,9 @@
 
 import React from 'react'
 import Image from 'next/image'
-import Stack from '../Stack'
+import Stack from '@/components/Stack'
 
-const Hero = () => {
+const Hero = () => { 
   // Dữ liệu hình ảnh cho Stack
   const images = [
     { id: 1, img: "/assets/stacks/stack1.JPG" },

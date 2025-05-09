@@ -1,11 +1,11 @@
 import React from 'react'
 import Background from '@/components/Background'
-import Hero from '@/components/sections/Hero'
-import Education from '@/components/sections/Education'
-import Skills from '@/components/sections/Skills'
-import Projects from '@/components/sections/Projects'
-// import Certificates from '@/components/sections/Certificates'
-import Contact from '@/components/sections/Contact'
+import Hero from '@/features/portfolio/Hero'
+import Education from '@/features/portfolio/Education'
+import Skills from '@/features/portfolio/Skills'
+import Projects from '@/features/portfolio/Projects'
+// import Certificates from '@/features/portfolio/Certificates'
+import Contact from '@/features/portfolio/Contact'
 import Footer from '@/components/Footer'
 
 export default function Home() {
