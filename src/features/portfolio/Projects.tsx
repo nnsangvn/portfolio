@@ -12,8 +12,8 @@ const Projects = () => {
                   image: "/assets/VisionLand.png",
                   title: "VisionLand",
                   date: "2024",
-                  description: "Implemented application features based on pre-designed UI using REST API, applying the MVC pattern, and managing state efficiently using GetX.",
-                  technologies: ["Flutter", "Getx", "MVC"],
+                  description: "Built a scalable real estate listing platform with hierarchical user roles and multi-level referral commission tracking.",
+                  technologies: ["Flutter", "Getx"],
                   websiteUrl: "#",
                   sourceUrl: "#",
                   type: "development"
@@ -29,16 +29,6 @@ const Projects = () => {
                   type: "development"
             },
             {
-                  image: "/assets/music-app.png",
-                  title: "Music App",
-                  date: "2025",
-                  description: "Developed a music streaming app inspired by Spotify using Flutter, Bloc for state management, and Firebase for backend services, following clean architecture principles for maintainable code.",
-                  technologies: ["Flutter", "Firebase", "Cubit"],
-                  websiteUrl: "#",
-                  sourceUrl: "https://github.com/nnsangvn/spotify",
-                  type: "development"
-            },
-            {
                   image: "/assets/Food-Hub.png",
                   title: "Food Hub",
                   date: "2025",
@@ -46,18 +36,18 @@ const Projects = () => {
                   technologies: ["Flutter","BloC", "Clean Architecture"],
                   websiteUrl: "#",
                   sourceUrl: "https://github.com/nnsangvn/flutter_food_hub",
-                  type: "development"
+                  type: "personal"
             },
-            // {
-            //       image: "/assets/tvu-logo.png",
-            //       title: "Project 4",
-            //       date: "2025",
-            //       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus.",
-            //       technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-            //       websiteUrl: "#",
-            //       sourceUrl: "#",
-            //       type: "design"
-            // }
+            {
+                  image: "/assets/music-app.png",
+                  title: "Music App",
+                  date: "2025",
+                  description: "Developed a music streaming app inspired by Spotify using Flutter, Bloc for state management, and Firebase for backend services, following clean architecture principles for maintainable code.",
+                  technologies: ["Flutter", "Firebase", "Cubit"],
+                  websiteUrl: "#",
+                  sourceUrl: "https://github.com/nnsangvn/spotify",
+                  type: "personal"
+            },
       ]
 
       const filteredProjects = activeTab === 'all'
@@ -88,11 +78,11 @@ const Projects = () => {
                                     Development
                               </button>
                               <button
-                                    className={`flex-1 py-2 px-4 text-center text-sm font-medium rounded-md transition-colors ${activeTab === 'design' ? 'text-black bg-white shadow-sm' : 'text-black bg-transparent'}`}
-                                    onClick={() => setActiveTab('design')}
+                                    className={`flex-1 py-2 px-4 text-center text-sm font-medium rounded-md transition-colors ${activeTab === 'personal' ? 'text-black bg-white shadow-sm' : 'text-black bg-transparent'}`}
+                                    onClick={() => setActiveTab('personal')}
                                     tabIndex={0}
                               >
-                                    Design
+                                    Personal
                               </button>
                         </div>
 

@@ -1,38 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio cá nhân
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-13%2B-blue?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-First, run the development server:
+## Giới thiệu
+
+Đây là dự án **Portfolio cá nhân** được xây dựng với Next.js, giúp bạn giới thiệu bản thân, kỹ năng, dự án nổi bật và thông tin liên hệ một cách chuyên nghiệp.
+
+> ✨ _Everything will be ok!_
+
+---
+
+## 🌐 Demo
+
+[cv.nnsang.com](https://cv.nnsang.com/)
+
+---
+
+## 🎯 Tính năng nổi bật
+
+- Giới thiệu bản thân, kỹ năng, kinh nghiệm
+- Hiển thị các dự án nổi bật
+- Giao diện hiện đại, responsive
+- Tối ưu SEO với Next.js
+- Dễ dàng tuỳ biến nội dung
+
+---
+
+## ⚡️ Cài đặt & Khởi động
 
 ```bash
+# Cài đặt dependencies
+npm install
+
+# Chạy local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Truy cập http://localhost:3000 để xem kết quả
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Công nghệ sử dụng
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Liên hệ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Tác giả:** _Nguyễn Nhất Sang_
+- **Email:** _nguyennhatsang2002@email.com_
+- **LinkedIn:** [nnsang](https://www.linkedin.com/in/nnsang/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# portfolio
-# portfolio
+Dự án sử dụng giấy phép MIT.

@@ -80,7 +80,7 @@ const Hero = () => {
               company: "Mevivu Technology",
               date: "Nov 2024 - Feb 2025",
               title: "Mobile Developer Intern"
-            }
+            },
           ].map((experience, index) => (
             <div key={index}>
               <div className="flex select-none">
