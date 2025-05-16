@@ -42,12 +42,12 @@ const Hero = () => {
         </div>
 
         {/* Stack hiển thị trên desktop */}
-        <div className="hidden lg:block z-20" style={{ transform: 'rotate(10deg)' }}>
-          <div className="relative" style={{ width: 200, height: 200 }}>
+        <div className="hidden lg:block z-20" style={{ opacity: 1, filter: 'blur(0px)', transform: 'none' }}>
+          <div className="relative" style={{ width: "190px", height: "190px", perspective: 600 }}>
             <Stack
-            //   animationConfig={{ stiffness: 260, damping: 20 }}
+              animationConfig={{ stiffness: 260, damping: 20 }}
               randomRotation={false}
-              sensitivity={180}
+              sensitivity={100}
               sendToBackOnClick={true}
               cardDimensions={{ width: 200, height: 200 }}
               cardsData={images}
@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
+      
       {/* Section About */}
       <div className="mb-10">
         <p className="font-bold text-xl leading-normal">About</p>
